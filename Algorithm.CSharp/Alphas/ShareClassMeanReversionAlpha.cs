@@ -53,7 +53,7 @@ namespace QuantConnect.Algorithm.CSharp.Alphas
             SetWarmUp(20);
 
             // Setup Universe settings and tickers to be used
-            var symbols = new[] { "VIA", "VIAB" }
+            var symbols = new[] { "VIACA", "VIAC" }
                 .Select(x => QuantConnect.Symbol.Create(x, SecurityType.Equity, Market.USA));
 
             // Set requested data resolution

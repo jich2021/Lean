@@ -68,6 +68,8 @@ namespace QuantConnect
             Tuple.Create(BCD, 30),
             Tuple.Create(MCX, 31),
             Tuple.Create(BFO, 32),
+
+            Tuple.Create(EUROPE, 33),
         };
 
         static Market()
@@ -242,6 +244,11 @@ namespace QuantConnect
         /// Bittrex
         /// </summary>
         public const string Bittrex = "bittrex";
+
+        /// <summary>
+        /// Europe
+        /// </summary>
+        public const string EUROPE = "europe";
 
         /// <summary>
         /// Adds the specified market to the map of available markets with the specified identifier.
